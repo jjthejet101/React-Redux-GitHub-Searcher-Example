@@ -1,7 +1,9 @@
 import Redux from 'redux';
 
 let initialState = {
-
+  username: '',
+  userprofile: {},
+  repos: []
 }
 
 const reducer = (state = initialState, action) => {
